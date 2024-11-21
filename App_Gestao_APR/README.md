@@ -242,28 +242,28 @@ A arquitetura da aplicação é dividida em ..
 ## Como Executar o Projeto
 
 ```bash
-### Clonar o repositório
+# Clonar o repositório
 
   - git clone https://github.com/Cordyceps13/Python.git
 
-### Navegar até ao diretório do projeto
+# Navegar até ao diretório do projeto
 
   - cd Python\App_Gestao_APR
 	
 
 ```Terminal do IDE
 
-### Criar ambiente virtual
+# Criar ambiente virtual
 
   - python -m venv venv
 
 
-### Instalar as dependências
+# Instalar as dependências
 
   - pip install -r requirements.txt
 
 
-### Executar a applicação
+# Executar a applicação
 
   - python main.py
 
