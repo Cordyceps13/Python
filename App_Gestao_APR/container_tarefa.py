@@ -95,30 +95,14 @@ class Tarefa(ft.UserControl):
             ),
         )
 
-    # Obter instancia do container para possibilitar a eliminação das tarefas
-    # para ser utilizada tem que constar nos botões de editar e eliminar
-    def ContainerInstancia(self):
-        return self
 
     # Função para apagar e editar as tarefas
     def ApagarEditarTarefa(self, name, color, func):
-        if name == ft.icons.EDIT_ROUNDED:
-            # For edit button, only pass task_id
-            return ft.IconButton(
-                icon=name,
-                width=30,
-                icon_size=15,
-                icon_color=color,
-                padding=ft.padding.only(bottom=1),
-                on_click=lambda e: func(self.task_id)
-            )
-        else:
-            # For delete button, keep both arguments
-            return ft.IconButton(
-                icon=name,
-                width=30,
-                icon_size=15,
-                icon_color=color,
-                padding=ft.padding.only(bottom=1),
-                on_click=lambda e: func(self.task_id, self.task)
-            )
+        return ft.IconButton(
+            icon=name,
+            width=30,
+            icon_size=15,
+            icon_color=color,
+            padding=ft.padding.only(bottom=1),
+            on_click=lambda e: func(self.task_id, self.task) if name == ft.icons.DELETE_ROUNDED else func(self.task_id)
+        )

@@ -22,7 +22,6 @@ try:
                 )
     ''')
     
-    # print('Ligado à base de dados \m/') 
     db.commit()
     c.close()
 
@@ -44,6 +43,7 @@ def signup(conexao, nome, password):
         c = conexao.cursor()
         c.execute('INSERT INTO utilizadores (nome, password) VALUES (?, ?)', (nome, password_hash))
         conexao.commit()
+        c.close()
         return True
     except sq.Error as e:
         print('Erro ao inserir o utilizador: ', e)
@@ -65,6 +65,7 @@ def Login(conexao, nome, password):
     c = conexao.cursor()
     c.execute('SELECT * FROM utilizadores WHERE nome=? AND password=?', (nome, password_hash))
     utilizador = c.fetchone()
+    c.close()
     if utilizador:
         sessao_ID = utilizador[0]
         sessao = utilizador[1]
@@ -119,10 +120,10 @@ def EditarTarefa(conexao, tarefa_txt, data, edit_task_id):
         print('Erro ao editar a tarefa: ', e)
 
 # Função para eliminar tarefas na base de dados
-def EliminarTarefa(conexao, value):
+def EliminarTarefa(conexao, task_id):
     try:
         c = conexao.cursor()
-        c.execute('DELETE FROM tarefas WHERE ID=?', value)
+        c.execute('DELETE FROM tarefas WHERE ID=?', task_id)
         conexao.commit()
         c.close()
     except sq.Error as e:

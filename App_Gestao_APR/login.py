@@ -9,11 +9,6 @@ conexao = db.criar_conexao()
 
 
 def abrir_login(page: ft.Page):
-    # #SO PARA TESTES
-    # page.window.width = m.WINDOW_WIDTH
-    # page.window.height = m.WINDOW_HEIGHT
-    # page.window.resizable = False
-    # page.update()
     
     def voltar(e):
         page.clean()
@@ -188,9 +183,3 @@ def abrir_login(page: ft.Page):
             )
         )
     )
-    
-    
-
-
-# if __name__ == "__main__":
-#     ft.app(target=main)
