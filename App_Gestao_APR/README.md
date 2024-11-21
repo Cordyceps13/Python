@@ -241,7 +241,7 @@ A arquitetura da aplicação é dividida em ..
 
 ## Como Executar o Projeto
 
-
+```bash
 # Clonar o repositório
 
   - git clone https://github.com/Cordyceps13/Python.git
@@ -267,6 +267,7 @@ A arquitetura da aplicação é dividida em ..
 
   - python main.py
 
+```
 
 --------------------------------------------------------------------------------------------------
 
