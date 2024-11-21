@@ -128,7 +128,7 @@ A arquitetura da aplicação é dividida em ..
 
 #### Ficheiros
 
-  #Ficheiro para criação da base de dados que contém as funções com Queries de manipulação da mesma
+  **Ficheiro para criação da base de dados que contém as funções com Queries de manipulação da mesma**
 
 	- database.py
 
@@ -144,11 +144,11 @@ A arquitetura da aplicação é dividida em ..
 			- EditarTarefa(conexao, tarefa_txt_, data, edit_task_id) -> Permite a edição de tarefas existentes na base de dados
 			- EliminarTarefa(conexao, task_id) -> Elimina tarefas da base de dados com base no ID passado por argumento
 
-  #Ficheiro que contém a base de dados local
+  **Ficheiro que contém a base de dados local**
 
 	- tarefas.db
 
-  #Ficheiro que contém o módulo da lista de tarefas
+  **Ficheiro que contém o módulo da lista de tarefas**
 
 	- to_do.py
 
@@ -156,7 +156,7 @@ A arquitetura da aplicação é dividida em ..
 			- abrir_lista_tarefas(page: ft.Page) -> Permite abrir o módulo quando chamada em outros ficheiros
 			- voltar() -> Permite voltar à página inicial
 
-  #Ficheiro que contém o container das tarefas
+  **Ficheiro que contém o container das tarefas**
 
 	- container_tarefa.py
 
@@ -167,7 +167,7 @@ A arquitetura da aplicação é dividida em ..
 			- rasurar_texto(self, e) -> Marca a tarefa como concluída quando é clicada a respetiva checkbox
 			- ApagarEditarTarefas(self, name, color, func) -> Associa a ação dos botões consoante aquele que é clicado
 
-  #Ficheiro que contém a página de registo de utilizadores
+  **Ficheiro que contém a página de registo de utilizadores**
 
 	- singup.py
 
@@ -177,7 +177,7 @@ A arquitetura da aplicação é dividida em ..
 			- fechar_alert(page) -> Maior controle para fechar o AlertDialog
 			- ir_para_login() -> Navegar para a página de login após registo efetuado com sucesso
 
-  #Ficheiro que contém a página de login
+  **Ficheiro que contém a página de login**
 
 	- login.py
 
@@ -186,14 +186,14 @@ A arquitetura da aplicação é dividida em ..
 			- voltar(e) -> Permite voltar à página principal
 			- fechar_alert(page) -> Maior controle para fechar o AlertDialog
 
-  #Ficheiro principal da aplicação
+  **Ficheiro principal da aplicação**
 
 	- main.py
 
 		##Funções
 			- fechar_app(e) -> Permite terminar por completo a execução da aplicação
 
-  #Ficheiro com as dependências do projeto
+  **Ficheiro com as dependências do projeto**
 
 	- requirements.txt
 
