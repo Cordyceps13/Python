@@ -251,7 +251,7 @@ A arquitetura da aplicação é dividida em ..
   - cd Python\App_Gestao_APR
 	
 
-```Terminal do IDE
+--> Terminal do IDE
 
 # Criar ambiente virtual
 
