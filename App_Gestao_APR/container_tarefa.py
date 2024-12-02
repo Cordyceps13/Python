@@ -14,7 +14,7 @@ class Tarefa(ft.UserControl):
         self.func1 = func1
         self.func2 = func2
         super().__init__()
-
+    
     # Função para marcar as tarefas como concluídas
     def rasurar_texto(self, e):
         self.checked = e.control.value  # Atualiza o estado da checkbox
@@ -22,7 +22,7 @@ class Tarefa(ft.UserControl):
         self.task_text.style = ft.TextStyle(decoration=text_decoration)
         self.date_text.style = ft.TextStyle(decoration=text_decoration)
         self.update()
-
+    
     # Função para construir o container de cada tarefa
     def build(self):
 
@@ -94,8 +94,7 @@ class Tarefa(ft.UserControl):
                 ],
             ),
         )
-
-
+    
     # Função para apagar e editar as tarefas
     def ApagarEditarTarefa(self, name, color, func):
         return ft.IconButton(
