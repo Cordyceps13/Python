@@ -57,7 +57,8 @@ a serem mostradas apenas as tarefas criadas pelo utilizador autenticado
 
 - ## **Limitações**:
   
-  - Conhecimento do framework
+  - Flata de conhecimento acerca do framework
+  - Falta de experiência em programação
   - Tempo limitado para aquisição de conhecimentos e a sua implementação
   - Framework relativamente recente, o que limita os recursos de informação 
 
@@ -79,8 +80,10 @@ a serem mostradas apenas as tarefas criadas pelo utilizador autenticado
 
 - **RNF01**: Python 3.11.7
 - **RNF02**: Flet (Flutter para Python)
-- **RNF03**: Biblioteca Datetime
-- **RNF04**: Base de dados SQLite3
+- **RNF03**: Base de dados SQLite3
+- **RNF04**: Biblioteca datetime
+- **RNF05**: Biblioteca time
+- **RNF06**: Biblioteca sys
 
 --------------------------------------------------------------------------------------------------
 
@@ -101,7 +104,7 @@ A arquitetura da aplicação é dividida em ..
 
   - Python 3.11.7
   - Framework Flet (Flutter para Python)
-  - SQL
+  - SQLite3
 
 --------------------------------------------------------------------------------------------------
 
@@ -120,7 +123,7 @@ A arquitetura da aplicação é dividida em ..
 
   - GitHub para controlo de versão.
   - Visual Studio Code como IDE.
-  - ChatGpt para esclarecimento de dúvidas.
+  - ChatGpt para esclarecimento de dúvidas / resolução de erros.
 
 --------------------------------------------------------------------------------------------------
 
@@ -273,4 +276,14 @@ A arquitetura da aplicação é dividida em ..
 
 ## Conclusão
 
-	Este projeto veio-me mostrar que ainda tenho muito para aprender na construção de aplicações funcionais
+Foi bastante desafiador trabalhar com esta framework devido à falta de conhecimento e prática com a utilização de objetos e funções com tanta frequência.
+
+Não quer dizer que já sei trabalhar com ela, acho que ainda me falta muito para chegar a um ponto em que me sinta confortável, mas com as horas dedicadas a este projeto acabei por começar a entender melhor como é feita a contrução dos componentes nela contidos.
+
+Ainda me sinto muito verdinho no que toca à programação com ambiente gráfico e gestão de funcionalidades, parece que fico paralisado a analisar e tentar perceber como é que irei connseguir implementar determinada função e como organizar os elementos da maneira que pretendo.
+
+Espero que seja só mais uma fase de assombração pelo famoso síndrome de impostor e que as coisas comecem a ficar mais claras de dia para dia.
+
+Entrego o projeto na fase em que se encontra, mas pretendo ir adicionando funcionalidades ao meu ritmo, (devaaaagrariiiiinho), para ver se consigo ir ficando cada vez mais familiarizado com toda a exigência que é ser programdor
+
+Ainda tenho muito que aprender e muito que melhorar, mas estou muito feliz por ter conseguido chegar até aqui.
