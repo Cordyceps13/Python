@@ -45,8 +45,10 @@ a serem mostradas apenas as tarefas criadas pelo utilizador autenticado
 
 - **Objetivos Específicos**:
 
-  - Implementar funcionalidades CRUD (Create, Read, Update and Delete)
-  - Utilizar uma base de dados simples para armazenamento das tarefas criadas e associá-las ao utilizador (SQLite).
+  - Criar uma aplicação com ambiente gráfico que ajude na gestão pessoal com recurso a criação, 
+	listagem e edição de tarefas de modo a aliviar o stress 
+	causado pela imensidão de tarefas que temos no nosso dia a dia, 
+	servindo como o post-it que colamos no ecrã do computador.
 
 
 - **Público-Alvo**: 
