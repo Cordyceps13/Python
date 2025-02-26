@@ -7,7 +7,6 @@ import container_tarefa as ct
 conexao = db.criar_conexao()
 utilizador = db.verificar_sessao()
 
-
 def abrir_lista_tarefas(page: ft.Page):
     
     # Função para voltar à página inicial
@@ -223,7 +222,6 @@ def abrir_lista_tarefas(page: ft.Page):
         )
         page.dialog.open = True
         page.update()
-
 
     # Coluna principal para listar tarefas
     _main_column_ = ft.Column(

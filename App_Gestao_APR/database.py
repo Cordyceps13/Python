@@ -22,6 +22,7 @@ try:
                 )
     ''')
     
+    # print('Ligado à base de dados \m/') 
     db.commit()
     c.close()
 

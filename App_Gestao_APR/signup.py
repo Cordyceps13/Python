@@ -1,7 +1,6 @@
 import flet as ft
 import main as m
 import database as db
-import to_do as td
 import login as lg
 import time
 
@@ -99,7 +98,7 @@ def abrir_signup(page: ft.Page):
         password=True,
     )
     
-    #COLUNA PRINCIPAL DA PAGINA DE LOGIN
+    #COLUNA PRINCIPAL DA PAGINA DE SIGNUP
     _main_column_ = ft.Column(
         expand=True,
         alignment=ft.MainAxisAlignment.CENTER,
